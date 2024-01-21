@@ -34,7 +34,7 @@ function classificarHeroi(xp) {
 }
 
 
-  let nome = heroi[0][0]
-  let xp = heroi[0][1]
+  let nome = heroi[5][0]
+  let xp = heroi[5][1]
   let classificacao = classificarHeroi(xp);
   console.log("O herói : ", nome, "Sua Experiência: ", xp, "Classificação: ", classificacao)
